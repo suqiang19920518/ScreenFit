@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- 声明在中文状态下的字符串 -->
+    <string name="app_name">屏幕适配</string>
+    <string name="fit_language">语言适配</string>
+    <string name="fit_landPort">横竖屏适配</string>
+    <string name="fit_property">控件属性适配</string>
+
+    <string name="fit_percent_frame">百分比帧布局适配</string>
+    <string name="fit_percent_relative"> 百分比相对布局适配</string>
+    <string name="fit_percent_linear">百分比线性布局适配</string>
+
+</resources>

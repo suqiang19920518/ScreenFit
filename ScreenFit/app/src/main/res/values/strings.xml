@@ -1,0 +1,10 @@
+<resources>
+    <!-- 声明在英文状态下的字符串 -->
+    <string name="app_name">ScreenFit</string>
+    <string name="fit_language">Language adaptation</string>
+    <string name="fit_landPort">Somehow the screen adaptation</string>
+    <string name="fit_property">The control attribute adaptation</string>
+    <string name="fit_percent_frame"> The percentage frame layout adaptation</string>
+    <string name="fit_percent_relative"> The percentage relative layout adaptation</string>
+    <string name="fit_percent_linear">The percentage linear layout adaptation</string>
+</resources>

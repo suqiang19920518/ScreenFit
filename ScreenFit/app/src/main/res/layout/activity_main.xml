@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--使用TextView的点击onClick属性，必须加上android:clickable="true"-->
+    <TextView
+        android:id="@+id/tv_language"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGray"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/fit_language"
+        android:textSize="16sp" />
+
+    <!--使用TextView的点击onClick属性，必须加上android:clickable="true"-->
+    <TextView
+        android:id="@+id/tv_landPort"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGray"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/fit_landPort"
+        android:textSize="16sp" />
+
+    <!--使用TextView的点击onClick属性，必须加上android:clickable="true"-->
+    <TextView
+        android:id="@+id/tv_property"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGray"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/fit_property"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_percent_frame"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGray"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/fit_percent_frame"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_percent_relative"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGray"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/fit_percent_relative"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_percent_linear"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGray"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/fit_percent_linear"
+        android:textSize="16sp" />
+
+</LinearLayout>
